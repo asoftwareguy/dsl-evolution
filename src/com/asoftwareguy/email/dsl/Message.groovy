@@ -49,7 +49,7 @@ class Message {
 
     public void send() {
         // actually send the email message
-        System.out.println("Sending message: " + this.toString());
+        println("Sending message: " + this.toString());
     }
 
     private void nullify() {
