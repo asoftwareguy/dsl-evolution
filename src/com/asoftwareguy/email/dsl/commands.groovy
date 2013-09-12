@@ -1,3 +1,3 @@
-send email to 'ekelm@egov.com' from 'test@texas.gov' with() subject 'Shell Fluent Message Sender' and() message 'Hello! This is an email message from the DSL Sender.'
-send sms to '512-111-1234' from '512-111-1111' with() message 'Hello! This is an SMS message from the DSL Sender.'
-send post to '100 Congress Ave., Suite 600, Austin, TX 78701' from '123 Main St., Austin, TX 78701' with() message "Dear Sir, I am contacting you today..."
+send email to 'ekelm@egov.com' from 'test@texas.gov' with a subject 'Shell Fluent Message Sender' and the message 'Hello! This is an email message from the DSL Sender.'
+send sms to '512-111-1234' from '512-111-1111' with the message 'Hello! This is an SMS message from the DSL Sender.'
+send post to '100 Congress Ave., Suite 600, Austin, TX 78701' from '123 Main St., Austin, TX 78701' with a message "Dear Sir, I am contacting you today..."

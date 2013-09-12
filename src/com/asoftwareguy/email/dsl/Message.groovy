@@ -1,5 +1,7 @@
 package com.asoftwareguy.email.dsl
 
+import com.asoftwareguy.email.dsl.grammar.Article
+import com.asoftwareguy.email.dsl.grammar.MessageType
 import groovy.transform.ToString
 
 @ToString
@@ -27,7 +29,7 @@ class Message {
         this
     }
 
-    Message with() {
+    Message with(Article _) {
         this
     }
 
@@ -36,7 +38,7 @@ class Message {
         this
     }
 
-    Message and() {
+    Message and(Article _) {
         this
     }
 

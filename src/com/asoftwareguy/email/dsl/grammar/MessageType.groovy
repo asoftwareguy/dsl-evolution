@@ -1,4 +1,4 @@
-package com.asoftwareguy.email.dsl
+package com.asoftwareguy.email.dsl.grammar
 
 enum MessageType {
     email,
