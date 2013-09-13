@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4346636f-80ae-4dad-a953-acdf131e3dd8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\.name" afterPath="" />
       <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\compiler.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\copyright\profiles_settings.xml" afterPath="" />
@@ -15,18 +14,17 @@
       <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\uiDesigner.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\dsl-evolution.iml" afterPath="" />
     </list>
     <ignored path="dsl-evolution.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379103958855" ignored="false" />
+    <file path="/Dummy.txt" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379106182488" ignored="false" />
     <file path="/Message.groovy" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379018341579" ignored="false" />
     <file path="/fragment.java" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379017312766" ignored="false" />
     <file path="/Article.groovy" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379018223735" ignored="false" />
     <file path="/commands.groovy" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379021327786" ignored="false" />
     <file path="/Sender.groovy" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379017999794" ignored="false" />
     <file path="/.gitignore" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379105452412" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379105453534" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379106182963" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="0.08056872">
+            <state line="3" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="0.083333336">
               <folding />
             </state>
           </provider>
@@ -154,6 +152,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -174,8 +174,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,9 +189,9 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Groovy.Sender">
     <configuration default="false" name="Sender" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
@@ -218,6 +216,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
       <setting name="path" value="" />
@@ -227,18 +231,25 @@
       <setting name="debug" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -267,19 +278,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -400,11 +398,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23426062" sideWeight="0.68133533" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31866464" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761312" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -553,16 +551,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="61" selection-start="599" selection-end="599" vertical-scroll-proportion="0.08225807">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="0.08056872">
+        <state line="3" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="0.083333336">
           <folding />
         </state>
       </provider>
