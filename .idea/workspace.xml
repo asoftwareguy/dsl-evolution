@@ -2,18 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4346636f-80ae-4dad-a953-acdf131e3dd8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/Message.groovy" afterPath="$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/Message.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/commands.groovy" afterPath="$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/commands.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\libraries\commons_lang3_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\libraries\lib.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitWorkspace\dsl-evolution\dsl-evolution.iml" afterPath="" />
     </list>
     <ignored path="dsl-evolution.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379020944519" ignored="false" />
+    <file path="/Dummy.txt" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379103958855" ignored="false" />
     <file path="/Message.groovy" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379018341579" ignored="false" />
     <file path="/fragment.java" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379017312766" ignored="false" />
     <file path="/Article.groovy" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379018223735" ignored="false" />
     <file path="/commands.groovy" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379021327786" ignored="false" />
     <file path="/Sender.groovy" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379017999794" ignored="false" />
+    <file path="/.gitignore" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379105452412" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="4346636f-80ae-4dad-a953-acdf131e3dd8" time="1379105453534" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +86,17 @@
     <favorites_list name="dsl-evolution" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="0.08056872">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -95,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/grammar/Article.groovy" />
         <option value="$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/Message.groovy" />
         <option value="$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/commands.groovy" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -130,7 +154,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -152,6 +175,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,9 +191,9 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Groovy.Sender">
     <configuration default="false" name="Sender" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
@@ -194,12 +218,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
       <setting name="path" value="" />
@@ -209,25 +227,18 @@
       <setting name="debug" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -256,6 +267,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -346,7 +370,11 @@
       <created>1379020978364</created>
       <updated>1379020978364</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed System.out.println to println">
+      <created>1379021481801</created>
+      <updated>1379021481801</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -364,7 +392,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761312" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -372,10 +399,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23426062" sideWeight="0.68133533" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31866464" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31866464" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761312" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -422,7 +450,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Article enum to make the language more like English; added .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed System.out.println to println" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -439,6 +467,7 @@
     <MESSAGE value="removed README" />
     <MESSAGE value="added IML file" />
     <MESSAGE value="added Article enum to make the language more like English; added .idea" />
+    <MESSAGE value="changed System.out.println to println" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -457,32 +486,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/Sender.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="53" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#36#85#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="53" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/commands.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/grammar/Article.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dsl-evolution.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/Message.groovy">
@@ -494,58 +513,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/grammar/MessageType.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="5" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asoftwareguy/email/java/JavaEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="164" selection-end="164" vertical-scroll-proportion="0.16915423">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="164" selection-end="164" vertical-scroll-proportion="0.16915423" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dsl-evolution.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.16915423">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.16915423" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/grammar/Article.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/grammar/MessageType.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="6" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/commands.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/Sender.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="82" selection-start="677" selection-end="677" vertical-scroll-proportion="0.5579196">
-          <folding>
-            <element signature="e#36#85#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="20" column="82" selection-start="677" selection-end="677" vertical-scroll-proportion="0.5579196" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asoftwareguy/email/dsl/Message.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="33" selection-start="314" selection-end="318" vertical-scroll-proportion="0.25768322">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="61" selection-start="599" selection-end="599" vertical-scroll-proportion="0.08225807">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="0.08056872">
           <folding />
         </state>
       </provider>
