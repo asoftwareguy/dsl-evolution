@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+sourceSets {
+    main {
+        groovy {
+            srcDir 'src'
+        }
+        java {
+            srcDir 'src'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.commons:commons-lang3:3.1'
+    compile 'org.codehaus.groovy:groovy-all:2.2.0'
+}
